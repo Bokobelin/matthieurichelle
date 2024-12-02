@@ -1,14 +1,8 @@
-import { GetStaticProps } from 'next';
-
 type Publication = {
     title: string;
     authors: string[];
     date: string;
     link: string;
-  };
-
-  type HomeProps = {
-    publications: Publication[];
   };
 
   async function getPublications(): Promise<Publication[]> {
