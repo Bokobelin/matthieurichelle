@@ -24,18 +24,15 @@ type Publication = {
     const publications = await getPublications();
 
     return(
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
         <Header/>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start p-10">
         <div className="min-h-screen p-8">
-            <div className="max-w-4xl mx-auto bg-gray-200 shadow-md rounded-lg p-6">
-                <h1 className="text-2xl font-bold text-gray-700 mb-6">
-                Publication List
-                </h1>
+            <div className="max-w-4xl mx-auto bg-gray-50 shadow-md rounded-lg p-6">
                 <ul className="space-y-4">
                     {publications.map((pub, index) => (
                         <li key={index} className='p-4 bg-gray-300 rounded-md shadow hover:shadow-lg transition-shadow'>
-                            <a href={pub.link} className='text-lg font-semibold text-blue-600 hover:underline'>{pub.title}</a>
+                            <a href={pub.link} className='text-lg font-semibold text-violet-950 hover:underline'>{pub.title}</a>
                             <p className="text-sm text-gray-600">
                                 By <span className="font-medium">{pub.authors.join(', ')}</span>
                             </p>
