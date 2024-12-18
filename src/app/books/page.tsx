@@ -28,11 +28,11 @@ type Publication = {
     const publications = await getPublications();
 
     return(
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
+        <div className="flex flex-col items-center justify-items-center min-h-screen sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
         <Header/>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start p-10">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:p-10">
         <div className="min-h-screen p-8">
-            <div className="max-w-4xl mx-auto bg-gray-50 shadow-md rounded-lg p-6">
+            <div className="max-w-4xl mx-auto bg-gray-50 shadow-md rounded-lg lg:p-6">
                 <ul className="space-y-4">
                     {publications.map((pub, index) => (
                         <li key={index} className='flex flex-row gap-4 bg-gray-300 rounded-md shadow hover:shadow-lg transition-shadow'>

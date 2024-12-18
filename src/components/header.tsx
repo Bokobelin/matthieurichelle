@@ -5,8 +5,8 @@ export default function Header() {
     return (
         <>
             {/* Header */}
-            <header className="bg-white shadow fixed w-full top-0 z-50">
-                <div className="max-w-7xl mx-auto flex flex-col items-center py-4 px-6 sm:px-8">
+            <header className="bg-white shadow w-screen top-0 z-50 overflow-hidden">
+                <div className="max-w-7xl flex flex-col items-center py-4 overflow-hidden">
                     {/* Logo and Title */}
                     <div className="flex flex-col items-center">
                         <Image
@@ -35,9 +35,6 @@ export default function Header() {
                     </nav>
                 </div>
             </header>
-
-            {/* Spacer */}
-            <div className="h-[25px]" />
         </>
     );
 }
