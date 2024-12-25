@@ -40,9 +40,9 @@ type Publication = {
                             <div className="flex flex-col">
                                 <a href={pub.link} className='text-lg font-semibold text-violet-950 hover:underline'>{pub.title}</a>
                                 <p className="text-sm text-gray-600">
-                                    By <span className="font-medium">{pub.authors.join(', ')}</span>
+                                    <span className="font-medium">{pub.authors.join(', ')}</span>
                                 </p>
-                                <p className="text-xs text-gray-600">Published in {pub.date}</p>
+                                <p className="text-xs text-gray-600">{pub.date}</p>
                             </div>
                         </li>
                     ))}
