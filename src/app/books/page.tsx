@@ -36,7 +36,7 @@ type Publication = {
                 <ul className="space-y-4">
                     {publications.map((pub, index) => (
                         <li key={index} className='flex flex-row gap-4 bg-gray-300 rounded-md shadow hover:shadow-lg transition-shadow'>
-                            <Image src={pub.image} alt={pub.title} width={200} height={200} className="rounded-md" />
+                            <Image src={pub.image} alt={pub.title} height={200} width={200} className="rounded-md" />
                             <div className="flex flex-col">
                                 <a href={pub.link} className='text-lg font-semibold text-violet-950 hover:underline'>{pub.title}</a>
                                 <p className="text-sm text-gray-600">
