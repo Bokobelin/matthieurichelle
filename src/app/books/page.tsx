@@ -7,6 +7,8 @@ type Publication = {
     date: string;
     link: string;
     image: string;
+    preview: string;
+    pdf: string;
   };
 
   async function getPublications(): Promise<Publication[]> {
@@ -43,6 +45,16 @@ type Publication = {
                                     <span className="font-medium">{pub.authors.join(', ')}</span>
                                 </p>
                                 <p className="text-xs text-gray-600">{pub.date}</p>
+                                {pub.preview && pub.preview.trim() !== '' && (
+                                    <a href={pub.preview} className="text-xs text-blue-600 underline">
+                                        Preview
+                                    </a>
+                                )}
+                                {pub.pdf && pub.pdf.trim() !== '' && (
+                                    <a href={pub.pdf} className="text-xs text-blue-600 underline">
+                                        PDF
+                                    </a>
+                                )}
                             </div>
                         </li>
                     ))}
