@@ -63,7 +63,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center text-center justify-items-center min-h-screen sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
+    <div className="flex flex-col items-center justify-items-center min-h-screen sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
       <Header />
       <main className="flex flex-col gap-8 items-center sm:items-start lg:p-10">
         <div className="min-h-screen p-8 w-full max-w-4xl">
