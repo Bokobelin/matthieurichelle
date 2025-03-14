@@ -5,8 +5,8 @@ export default function Header() {
     return (
         <>
             {/* Header */}
-            <header className="bg-white shadow w-screen top-0 z-50 overflow-x-hidden">
-                <div className="max-w-7xl flex flex-col items-center py-4 overflow-x-hidden">
+            <header className="bg-white shadow w-screen top-0 z-50 overflow-x-hidden min-h-full">
+                <div className="max-w-7xl mx-auto flex flex-col items-center py-4 overflow-x-hidden">
                     {/* Logo and Title */}
                     <div className="flex flex-col items-center">
                         <Image
