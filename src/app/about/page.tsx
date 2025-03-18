@@ -9,7 +9,7 @@ export default function About() {
             Matthieu Richelle is a biblical scholar and epigrapher. He is professor of Old Testament exegesis at UCLouvain (Université catholique de Louvain; Belgium). A former student of the Ecole biblique et archéologique française de Jérusalem, he holds a PhD in History from the Ecole Pratique des Hautes Etudes and a Habilitation from the University of Strasbourg.
             <br/>
             <br/>
-            His research interests include Old Testament textual criticism, the exegesis of the Books of Kings, Semitic inscriptions of the ancient Levant, the relationship between the Bible and archaeology, and the history of ancient Israel. He is an associate editor of the Biblia Hebraica Quinta and the principal editor of 1 Kings (in progress) in the series <i>Hebrew Bible: A Critical Edition</i> (HBCE).
+            His research interests include Old Testament textual criticism, the exegesis of the Books of Kings, Semitic inscriptions of the ancient Levant, the relationship between the Bible and archaeology, and the history of ancient Israel. He is an associate editor of the Biblia Hebraica Quinta and the principal editor of 1 Kings (in progress) in the series Hebrew Bible: A Critical Edition (HBCE).
             <br/>
             <br/>
             <br/>   
