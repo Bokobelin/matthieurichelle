@@ -29,8 +29,8 @@ export default function Header() {
                         <Link href="/books" className="hover:text-blue-600">
                             Articles
                         </Link>
-                        <Link href="/reviews" className="hover:text-blue-600">
-                            Reviews
+                        <Link href="/about" className="hover:text-blue-600">
+                            About
                         </Link>
                     </nav>
                 </div>
