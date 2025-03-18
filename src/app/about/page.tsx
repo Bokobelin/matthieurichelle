@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="flex flex-col items-center justify-items-center min-h-screen sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white merriweather-regular">
             <Header/>
-            <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:p-10 text-gray-900  ">
+            <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:p-10 text-gray-900  mx-4">
             Matthieu Richelle is a biblical scholar and epigrapher. He is professor of Old Testament exegesis at UCLouvain (Université catholique de Louvain; Belgium). A former student of the Ecole biblique et archéologique française de Jérusalem, he holds a PhD in History from the Ecole Pratique des Hautes Etudes and a Habilitation from the University of Strasbourg.
             <br/>
             <br/>
