@@ -71,12 +71,6 @@ type Publication = {
           >
             Academia
           </a>
-          <a
-            href="https://uclouvain.be/fr/repertoires/matthieu.richelle"
-            className="underline text-black hover:text-gray-800"
-          >
-            UCLouvain
-          </a>
         </div>
       </footer>
     </div>

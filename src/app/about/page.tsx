@@ -11,7 +11,7 @@ export default function About() {
                 </div>
                 <br />
                 <div className="inline">
-                    His research interests include Old Testament textual criticism, the exegesis of the Books of Kings, Semitic inscriptions of the ancient Levant, the relationship between the Bible and archaeology, and the history of ancient Israel. He is an associate editor of the <Link href="https://www.die-bibel.de/en/biblia-hebraica-quinta-bhq" className="text-blue-500 underline"><i>Biblia Hebraica Quinta</i></Link> and the principal editor of 1 Kings (in progress) in the series <Link href="https://www.sbl-site.org/HBCE/HBCE_About.html" className="text-blue-500 underline">Hebrew Bible: A Critical Edition (HBCE)</Link>.
+                    His research interests include Old Testament textual criticism, the exegesis of the Books of Kings, West-Semitic inscriptions of the ancient Levant, the relationship between the Bible and archaeology, and the history of ancient Israel. He is an associate editor of the <Link href="https://www.die-bibel.de/en/biblia-hebraica-quinta-bhq" className="text-blue-500 underline"><i>Biblia Hebraica Quinta</i></Link> and the principal editor of 1 Kings (in progress) in the series <Link href="https://www.sbl-site.org/HBCE/HBCE_About.html" className="text-blue-500 underline">Hebrew Bible: A Critical Edition (HBCE)</Link>.
                 </div>
                 <br />
                 <div className="inline">
