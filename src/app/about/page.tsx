@@ -7,7 +7,7 @@ export default function About() {
             <Header />
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:p-10 text-gray-900 mx-4 mt-6 mb-6">
                 <div className="inline">
-                    Matthieu Richelle is a biblical scholar and epigrapher. He is professor of Old Testament exegesis at <Link href="https://www.uclouvain.be/en" className="text-blue-500 underline">UCLouvain (Université catholique de Louvain; Belgium)</Link>. A former student of the <Link href="https://www.ebaf.edu/en/" className="underline text-blue-500">Ecole biblique et archéologique française de Jérusalem</Link>, he holds a PhD in History from the <Link href="https://www.ephe.psl.eu/" className="underline text-blue-500">Ecole Pratique des Hautes Etudes</Link> and a Habilitation from the University of Strasbourg.
+                    Matthieu Richelle is a biblical scholar and an epigrapher. He is professor of Old Testament exegesis at <Link href="https://www.uclouvain.be/en" className="text-blue-500 underline">UCLouvain (Université catholique de Louvain; Belgium)</Link>. A former student of the <Link href="https://www.ebaf.edu/en/" className="underline text-blue-500">Ecole biblique et archéologique française de Jérusalem</Link>, he holds a PhD in History from the <Link href="https://www.ephe.psl.eu/" className="underline text-blue-500">Ecole Pratique des Hautes Etudes</Link> and a Habilitation from the <Link href="https://www.unistra.fr/" className="text-blue-500 underline">University of Strasbourg</Link>.
                 </div>
                 <br />
                 <div className="inline">
@@ -20,6 +20,7 @@ export default function About() {
                     <Link href="/List of publications 18 March 2025.pdf" className="text-blue-500 underline inline">List of Publications</Link>
                 </div>
             </main>
+            <h5 className="text-black mt-2">Hosted on <Link href="vercel.com">Vercel</Link></h5>
         </div>
     )
 }
