@@ -129,7 +129,7 @@ export default function Home() {
             Academia
           </a>
         </div>
-        <h5 className="text-black mt-2">Hosted on <Link href="vercel.com">Vercel</Link></h5>
+        <h5 className="text-black mt-2">Hosted on <Link href="https://vercel.com">Vercel</Link></h5>
       </footer>
     </div>
   );

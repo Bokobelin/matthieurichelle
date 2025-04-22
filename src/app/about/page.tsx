@@ -20,7 +20,7 @@ export default function About() {
                     <Link href="/List of publications 18 March 2025.pdf" className="text-blue-500 underline inline">List of Publications</Link>
                 </div>
             </main>
-            <h5 className="text-black mt-2">Hosted on <Link href="vercel.com">Vercel</Link></h5>
+            <h5 className="text-black mt-2">Hosted on <Link href="https://vercel.com">Vercel</Link></h5>
         </div>
     )
 }
