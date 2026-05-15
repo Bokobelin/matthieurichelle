@@ -36,7 +36,7 @@ export default function RootLayout({
             _paq.push(['enableLinkTracking']);
 
             (function() {
-              var u="//matomo.bokobelin.top:7075/";
+              var u="//matomo.bokobelin.top/";
               _paq.push(['setTrackerUrl', u + 'matomo.php']);
               _paq.push(['setSiteId', '1']);
 
