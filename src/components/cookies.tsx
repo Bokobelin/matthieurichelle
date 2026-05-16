@@ -33,7 +33,7 @@ export default function Cookies() {
           </span>
           <p className="title">Your privacy is important to us</p>
           <p className="description">
-            We do not collect cookies.
+            We collect basic cookies. To opt out, use a reputable ad blocker such as uBlock origin/uBlock origin lite. 
           </p>
           <button className="accept-button" type="button" onClick={handleAccept}>Ok</button>
         </div>
